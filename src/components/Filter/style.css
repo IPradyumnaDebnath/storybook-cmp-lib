@@ -40,16 +40,17 @@
   padding: 0;
 }
 
-.reset-icon{
+.reset-icon {
   font-weight: 600;
   font-size: 14px;
   line-height: 125%;
   color: #1967ff;
   cursor: pointer;
-  background: #1d2939; ;
+  background: #1d2939;
 }
-.filters-selection-list{
+.filters-selection-list {
+  width: 500px;
   display: grid;
-  grid-template-columns: repeat(4, auto) ;;
+  grid-template-columns: repeat(4, auto);
   color: #ffffff;
 }
