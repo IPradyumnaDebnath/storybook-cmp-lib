@@ -16,17 +16,17 @@ export const SimpleFilter = FilterTemplate.bind({});
 
 const Filter_Config = [
   {
-    label: "Checkbox group",
+    label: "Severity",
     type: "checkbox",
-    options: ["checkbox-1", "checkbox-2","Checkbox -3","checkbox-4","Checkbox -5"],
+    options: ["Low", "Medium", "High"],
   },
   {
-    label: "Radio group",
+    label: "Time",
     type: "radio",
-    options: ["Radio-1", "radio-2"],
+    options: ["Last 24 hours", "Last 72 hours", "Last week", "Last 6 months"],
   },
 ];
 
-SimpleFilter.args={
-  filterGroup:Filter_Config
-}
+SimpleFilter.args = {
+  filterGroup: Filter_Config,
+};
