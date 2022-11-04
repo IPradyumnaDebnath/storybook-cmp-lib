@@ -1,0 +1,21 @@
+.storybook-button-container {
+  height: 37px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  width: fit-content;
+  padding: 20px;
+  box-shadow: none;
+}
+.storybook-button-container.primary {
+  background: #1967ff;
+}
+
+.storybook-button-container.secondary {
+  background:rgba(60, 61, 62, 0.4);
+  
+}

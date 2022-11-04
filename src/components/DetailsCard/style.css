@@ -1,0 +1,19 @@
+.storybook-details-container {
+  width: 340px;
+  padding: 2px 20px;
+  background: #101828;
+  border-radius: 8px;
+  color: #FFFFFF;
+
+}
+.storybook-details-container .storybook-details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.storybook-details-container .storybook-details-content {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
