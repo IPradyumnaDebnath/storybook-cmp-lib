@@ -116,7 +116,7 @@ function Filter({ filterGroup }: FilterProps): JSX.Element {
                                 }
                                 label={checkboxLabel}
                                 checked={_some(selectedFilters, (ele) =>
-                                  ele.includes(checkboxLabel)
+                                  ele===`${filter.label}_${checkboxLabel}`
                                 )}
                               />
                             </li>
